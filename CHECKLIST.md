@@ -7,7 +7,7 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F star
 ## Research (STATE_WORKFLOW.md layers)
 
 - [x] 01-federal — reference Layer 1 of STATE_WORKFLOW.md (no state copy)
-- [ ] 02-definitions — started Nov 7: docs/tx-definitions.md (§ 46.15(a)(5), § 1701.357, § 411.199 read). Still to do: CCP art. 2A.001, Gov't Code ch. 614, decision tree
+- [ ] 02-definitions — started Nov 7: docs/tx-definitions.md (§ 46.15(a)(5), § 1701.357, § 411.199 read). Gov't Code ch. 614 subch. H read (retired ID cards). Still to do: CCP art. 2A.001, decision tree
 - [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. DPS retiree-license page and TCOLE certificate form (IUF 03.002) logged; TCOLE issues only to Texas residents. Still to do: 37 TAC § 218.9 and ch. 6, preemption check
 - [ ] 04-profiles — answers for profiles A–E (state retiree, out-of-state retiree, federal retiree, visitor, military police/DoD)
 - [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§§ 46.03, 30.05, 30.06, 30.07 read in full; Class C correction under § 30.05(d-3)). Still to do: state parks, local preemption, tribal gaming, map layers

@@ -23,7 +23,7 @@ Since 2021, § 46.02 makes handgun carry an offense only for someone under 21, s
 - **How:** demonstrate weapons proficiency to a qualified handgun instructor certified under Government Code § 411.190 and give TCOLE a sworn affidavit (926C eligibility; license never revoked or suspended; no disqualifying disability) ((b-1), (b-2)). A Texas state or local agency may also certify its own retirees ((b), (c)), and a state agency may certify other retirees ((h)).
 - **How long:** one year from issue ((d)). This matches LEOSA's 12-month qualification window.
 - **ID:** a certificate holder may ask the former agency for a photo ID showing honorable retirement or separation, and the agency must issue it ((i)). That is a Texas agency duty; it cannot bind a federal or out-of-state agency.
-- **Proof of status** may include the Texas retired peace officer ID card (Government Code ch. 614, subch. H) ((c-2); not yet read).
+- **Proof of status** may include the Texas retired peace officer ID card (Government Code ch. 614, subch. H) ((c-2)). Under §§ 614.124 and 614.1241, a Texas agency must issue that card on request to a former officer who holds a current § 1701.357 certificate; the agency sets its expiration (§ 614.125). These duties bind Texas agencies only; a federal or out-of-state agency's retired ID comes from that agency's own policy.
 
 ## The retiree license (Government Code § 411.199)
 
@@ -48,4 +48,4 @@ A retiree who holds both a certificate and a license can choose. The app should 
 1. For the `retired` group, which § 46.03 places does § 926C override?
 2. Does a 30.06 or 30.07 sign count as § 30.05 notice for someone who holds no Texas license? § 30.05(c) gives non-license carriers their own firearms sign, and a general sign "indicating that entry is forbidden" is notice under (b)(2)(C); whether a sign addressed to license holders reaches others is not settled by the text. Either way the penalty is Class C under (d-3) unless the carrier is told in person and stays.
 3. Does a federal agency photo ID that does not say "retired" satisfy § 46.15(a)(5)?
-4. Is "honorably retired peace officer" in § 46.15(a)(5) read with the § 411.199(c) definition (eligible to retire, not in lieu of discipline)?
+4. Is "honorably retired peace officer" in § 46.15(a)(5) read with the § 411.199(c) or § 614.121(2) definition (Texas service; eligible to retire; not in lieu of discipline)? It matters little in practice: the same clause also covers any "other qualified retired law enforcement officer" under § 926C.
