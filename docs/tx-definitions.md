@@ -45,6 +45,8 @@ A retiree who holds both a certificate and a license can choose. The app should 
 
 ## Open questions (also in CHECKLIST.md)
 
+6. Does § 46.03(a)(14) (open meetings of a governmental body, with notice) reach legislative committee hearings at the Capitol?
+7. Does LEOSA displace any tribal firearm law? The text of § 926C(a) names only state and local law; this project reads tribal law as untouched.
 5. Can a state agency exclude a LEOSA-only carrier (no Texas license) from its property by § 30.05 notice? § 411.209 protects license holders only, and cities and counties are preempted outright (Local Gov't Code §§ 229.001, 236.002).
 
 1. For the `retired` group, which § 46.03 places does § 926C override?
