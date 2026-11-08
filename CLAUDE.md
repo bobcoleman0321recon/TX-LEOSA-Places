@@ -4,7 +4,7 @@ Read `../CLAUDE.md`, `../STATE_WORKFLOW.md`, then this folder's CHECKLIST.md and
 
 ## Project boundary
 
-This folder lives at `/Users/bobcoleman/LEOSA-Places/TX-LEOSA-Places`. It holds Texas's research. Texas ships as an update inside the one LEOSA Places app (bundle ID `com.bobcoleman.LEOSAPlaces`): users download one App Store listing and pick Texas in the state, territory, possession picker. When Texas is ready, its rules and map data merge into the app codebase. Do not read from or write to Bob's other projects (GS1811-FieldGuide, PensionOps-HonorableService) unless Bob asks.
+This folder lives at `/Users/bobcoleman/LEOSA-Places/TX-LEOSA-Places`. It holds Texas's research. Texas ships as an update inside the one LEOSA Places app (bundle ID `com.bobcoleman.LEOSAPlaces`): users download one App Store listing and pick Texas in the app under the South Central region (STATE_WORKFLOW.md "Regions"). When Texas is ready, its rules and map data merge into the app codebase. Do not read from or write to Bob's other projects (GS1811-FieldGuide, PensionOps-HonorableService) unless Bob asks.
 
 ## Reference build
 

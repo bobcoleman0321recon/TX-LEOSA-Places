@@ -22,7 +22,7 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F star
 
 - [ ] Legal text added to the app's rules file (`src/rules_<st>.js`), with LAW_AS_OF and LAW_STATUS for this state
 - [ ] Guide tabs filled: VIEW, NOW, DRILLS (10+), CASES (5+) and CASES_NOTE; every tab checked on a device
-- [ ] Picker entry in `src/states.js`; app code still state-neutral (no state names or cite lists in app.js or index.html)
+- [ ] Entry in `src/states.js` with `region: "South Central"` (STATE_WORKFLOW.md "Regions") and `neighbors`; app code still state-neutral (no state names or cite lists in app.js or index.html)
 - [ ] Map layers added to the fetch and build tools; manifest records source and date
 - [ ] Tests pass: no place marked clear; government property and federal courts stay Restricted for retirees
 - [ ] App says which states it covers, and this state's as-of date shows on every status
