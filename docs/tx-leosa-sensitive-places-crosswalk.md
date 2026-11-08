@@ -19,9 +19,9 @@ Penal Code § 46.03 "premises" means a building or part of one; parking areas, d
 | (a)(13) amusement park (large, gated, security-staffed) | Class A | C | C | R | Narrow statutory definition |
 | (a)(14) open meeting of a governmental body, with notice | 3rd-degree felony | C | R | R | Government property; tied to an event |
 | Other government property (not a § 46.03 place) | — | C | C | C | Government Code § 411.209 bars posting for license holders; state agency rules (parks) not yet read |
-| Private property after notice (sign or oral) | § 30.05: Class B, Class A with a deadly weapon; § 30.06/30.07: Class C, Class A if told orally and stays | R | R | R | § 926C(b)(1) keeps owner bans. Not mapped; shown as a note |
+| Private property after notice (sign or oral) | Weapons-only trespass: Class C ($200) under § 30.05(d-3), § 30.06(d), § 30.07(d); Class A if personally told and the carrier stays | R | R | R | § 926C(b)(1) keeps owner bans. Non-license carriers: the § 30.05(c) firearms sign or other § 30.05(b)(2) notice. License holders: 30.06 (concealed) and 30.07 (open) signs. Not mapped; shown as a note |
 | Federal places (§ 930 buildings, post offices, VA cemeteries, military) | Federal | R | R | R | Same as NJ and NY |
 
 ## Not yet researched for this table
 
-State parks (Texas Parks and Wildlife rules), the State Capitol, local preemption (Local Government Code §§ 229.001, 236.002), tribal casinos (Kickapoo, Alabama-Coushatta, Ysleta del Sur), and § 46.035 (which version is in force).
+State parks (Texas Parks and Wildlife rules), the State Capitol, local preemption (Local Government Code §§ 229.001, 236.002), and tribal casinos (Kickapoo, Alabama-Coushatta, Ysleta del Sur). § 46.035 is settled for the app's purposes: only (a) remains, and § 46.02(a-5) carries the same display rule for everyone.

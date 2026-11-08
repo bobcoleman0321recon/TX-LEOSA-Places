@@ -10,7 +10,11 @@ Penal Code § 46.15(a)(5) takes a retiree out of Texas's carry law (§ 46.02) an
 2. The person holds a certificate of proficiency under Occupations Code § 1701.357.
 3. The person carries a photo ID from a federal, state or local law enforcement agency that verifies the retired status.
 
-The exemption does not mention §§ 30.05, 30.06 or 30.07 (trespass after notice), so owner bans still reach the retiree. Federal rules (§§ 922(q), 930, the airport sterile-area rule, postal and VA rules) are untouched.
+The exemption does not mention §§ 30.05, 30.06 or 30.07 (trespass after notice), so owner bans still reach the retiree. The § 30.05(i) trespass exemption covers peace officers (including commissioned officers of a "recognized state"), not retirees. Federal rules (§§ 922(q), 930, the airport sterile-area rule, postal and VA rules) are untouched.
+
+## Carry without any license (Penal Code § 46.02)
+
+Since 2021, § 46.02 makes handgun carry an offense only for someone under 21, someone with listed recent assault, deadly-conduct, terroristic-threat or disorderly-conduct convictions, or someone barred from possessing a firearm ((a), (a-7)). So a LEOSA retiree who is 21 or older and not barred may carry a handgun in Texas under state law alone, licensed or not. That does not lift § 46.03 places; only § 46.15(a)(5) (the certificate) or LEOSA can do that. The duties that bind every carrier still apply: no display in plain view unless holstered ((a-5)), and no carry while intoxicated off one's own property or vehicle ((a-6)).
 
 ## The certificate (Occupations Code § 1701.357)
 
@@ -25,6 +29,7 @@ The exemption does not mention §§ 30.05, 30.06 or 30.07 (trespass after notice
 - Honorably retired Texas peace officers may apply for a license to carry (LTC) at any time after retirement. The former agency must give a statement and may not refuse.
 - Retired U.S. officers who carried on duty may apply too ((g)).
 - Fees are waived ((d)). Classroom instruction is waived ((e)); range instruction is waived with a current § 1701.357 certificate ((e-1)).
+- **In practice (DPS's special-conditions page, read Nov 7):** a retired Texas officer applies with affidavit LTC-84 or an agency letter; a retired federal officer with a good-standing letter and retirement credentials. Both pay $0, need no training, and are fingerprinted. A retiree of another state's agency (for example a retired NJ or NY officer who moves to Texas) is not covered by § 411.199 and would use the ordinary license process, or carry under § 46.02 and rely on LEOSA and the § 1701.357 certificate.
 - Why it matters: a license brings the license-holder defenses and rules: § 30.05(f) (trespass defense), § 30.06 and § 30.07 (sign-based trespass, Class C), and § 411.209 (government may not post signs on its property except where § 46.03 or other law bars license holders).
 
 ## Proposed carrier groups for the app
@@ -40,6 +45,6 @@ A retiree who holds both a certificate and a license can choose. The app should 
 ## Open questions (also in CHECKLIST.md)
 
 1. For the `retired` group, which § 46.03 places does § 926C override?
-2. Does a 30.06 or 30.07 sign count as notice under § 30.05 for someone who holds no Texas license?
+2. Does a 30.06 or 30.07 sign count as § 30.05 notice for someone who holds no Texas license? § 30.05(c) gives non-license carriers their own firearms sign, and a general sign "indicating that entry is forbidden" is notice under (b)(2)(C); whether a sign addressed to license holders reaches others is not settled by the text. Either way the penalty is Class C under (d-3) unless the carrier is told in person and stays.
 3. Does a federal agency photo ID that does not say "retired" satisfy § 46.15(a)(5)?
 4. Is "honorably retired peace officer" in § 46.15(a)(5) read with the § 411.199(c) definition (eligible to retire, not in lieu of discipline)?

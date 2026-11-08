@@ -2,18 +2,18 @@
 
 Copied from LEOSA-Places/templates/STATE_CHECKLIST.md. Follow LEOSA-Places/STATE_WORKFLOW.md. Tick each item when it is done and its sources are in docs/sources.md.
 
-Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (folder created; Layers 2, 3 and 5 started)
+Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F started; ch. 9, §§ 30.05, 30.07, 46.02 read in full)
 
 ## Research (STATE_WORKFLOW.md layers)
 
 - [x] 01-federal — reference Layer 1 of STATE_WORKFLOW.md (no state copy)
 - [ ] 02-definitions — started Nov 7: docs/tx-definitions.md (§ 46.15(a)(5), § 1701.357, § 411.199 read). Still to do: CCP art. 2A.001, Gov't Code ch. 614, decision tree
-- [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. Still to do: TCOLE forms, preemption check
+- [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. DPS retiree-license page logged. Still to do: TCOLE forms, preemption check
 - [ ] 04-profiles — answers for profiles A–E (state retiree, out-of-state retiree, federal retiree, visitor, military police/DoD)
-- [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§ 46.03 read in full; §§ 30.05, 30.06 read). Still to do: § 30.07, state parks, local preemption, tribal gaming, map layers
+- [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§§ 46.03, 30.05, 30.06, 30.07 read in full; Class C correction under § 30.05(d-3)). Still to do: state parks, local preemption, tribal gaming, map layers
 - [ ] 06-hardware — ammunition, magazines, firearm type, vehicles and transport, possession licensing
-- [ ] 07-guidance — AG directives, state police FAQs, DA policies, case list; each dated and tagged binding / persuasive / informal
-- [ ] 07f-force — justification statute, retreat rule, property and arrest rules, official jury charge, silence and counsel, charging and bail, who investigates, real cases (STATE_WORKFLOW.md Layer 7F)
+- [ ] 07-guidance — started Nov 7: DPS special-conditions page in docs/sources.md. AG directives, state police FAQs, DA policies, case list; each dated and tagged binding / persuasive / informal
+- [ ] 07f-force — draft Nov 7: docs/tx-force-first-hour.md (ch. 9, §§ 2.03, 22.01–22.05, CPRC § 83.001 verified; procedure, jury charge, who investigates and cases still open). Justification statute, retreat rule, property and arrest rules, official jury charge, silence and counsel, charging and bail, who investigates, real cases (STATE_WORKFLOW.md Layer 7F)
 - [ ] 08-maps — layer inventory (source URL, format, license, update cycle, pulled date) + data pulled
 - [ ] 09-scenarios — scenario records in the NJ format, three statuses only
 - [ ] 10-sources — docs/sources.md started Nov 7 (ongoing)
@@ -45,5 +45,6 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (folder created; Layers 2, 3 a
 ## Open questions
 
 - Nov 7, 2026: For a LEOSA retiree without the Texas § 1701.357 certificate, which § 46.03 places does § 926C override? Government property and parks stay under (b)(2); the private-place bans (bars, racetracks, amusement parks, private hospitals) are state bans, not owner rules.
-- Nov 7, 2026: Is a 30.06 or 30.07 sign "notice that entry with a handgun was forbidden" under § 30.05 for a carrier who holds no Texas license?
+- Nov 7, 2026: Is a 30.06 or 30.07 sign "notice that entry with a handgun was forbidden" under § 30.05 for a carrier who holds no Texas license? (Penalty is Class C either way under § 30.05(d-3) unless told in person and the carrier stays.)
+- Nov 7, 2026: Layer 7F counsel questions 1–4 in docs/tx-force-first-hour.md (retiree arrest authority; whether carrying in a § 46.03 place is "criminal activity" defeating no-retreat; CPRC § 83.001 and bystanders; § 9.31(b)(5)).
 - Nov 7, 2026: Does § 46.15(a)(5)'s photo-ID requirement accept an ID from a federal agency that does not say "retired", if it otherwise meets § 926C(d)?
