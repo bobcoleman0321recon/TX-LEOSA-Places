@@ -8,7 +8,7 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F star
 
 - [x] 01-federal — reference Layer 1 of STATE_WORKFLOW.md (no state copy)
 - [ ] 02-definitions — started Nov 7: docs/tx-definitions.md (§ 46.15(a)(5), § 1701.357, § 411.199 read). Still to do: CCP art. 2A.001, Gov't Code ch. 614, decision tree
-- [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. DPS retiree-license page logged. Still to do: TCOLE forms, preemption check
+- [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. DPS retiree-license page and TCOLE certificate form (IUF 03.002) logged; TCOLE issues only to Texas residents. Still to do: 37 TAC § 218.9 and ch. 6, preemption check
 - [ ] 04-profiles — answers for profiles A–E (state retiree, out-of-state retiree, federal retiree, visitor, military police/DoD)
 - [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§§ 46.03, 30.05, 30.06, 30.07 read in full; Class C correction under § 30.05(d-3)). Still to do: state parks, local preemption, tribal gaming, map layers
 - [ ] 06-hardware — ammunition, magazines, firearm type, vehicles and transport, possession licensing
@@ -47,4 +47,5 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F star
 - Nov 7, 2026: For a LEOSA retiree without the Texas § 1701.357 certificate, which § 46.03 places does § 926C override? Government property and parks stay under (b)(2); the private-place bans (bars, racetracks, amusement parks, private hospitals) are state bans, not owner rules.
 - Nov 7, 2026: Is a 30.06 or 30.07 sign "notice that entry with a handgun was forbidden" under § 30.05 for a carrier who holds no Texas license? (Penalty is Class C either way under § 30.05(d-3) unless told in person and the carrier stays.)
 - Nov 7, 2026: Layer 7F counsel questions 1–4 in docs/tx-force-first-hour.md (retiree arrest authority; whether carrying in a § 46.03 place is "criminal activity" defeating no-retreat; CPRC § 83.001 and bystanders; § 9.31(b)(5)).
+- Nov 7, 2026: A visiting retiree cannot get the TCOLE certificate (Texas residents only), so the `retired` group's open question 1 decides most visitors' answers. Confirm with TCOLE that non-residents are refused, and whether a Texas agency under § 1701.357(b) or (h) may certify a non-resident.
 - Nov 7, 2026: Does § 46.15(a)(5)'s photo-ID requirement accept an ID from a federal agency that does not say "retired", if it otherwise meets § 926C(d)?

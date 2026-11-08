@@ -18,7 +18,8 @@ Since 2021, § 46.02 makes handgun carry an offense only for someone under 21, s
 
 ## The certificate (Occupations Code § 1701.357)
 
-- **Who can get it:** any qualified retired law enforcement officer entitled to carry under § 926C ((a-1)). Out-of-state and federal retirees are not excluded.
+- **Who can get it:** the statute reaches any qualified retired law enforcement officer entitled to carry under § 926C ((a-1)); it has no residency rule. **TCOLE's application adds one:** the applicant must be "residing in Texas" and send a government ID showing a current Texas address (TCOLE form IUF 03.002, Apr 23, 2026, under its (c-1) power to set procedures). That tracks § 926C(d)(2)(B), which accepts proficiency certified by the state where the retiree resides. Federal and out-of-state retirees who live in Texas qualify (they also send an agency ID stating retired or separated status and a PID form, C-1). **A visiting retiree who lives elsewhere cannot get the certificate, so is in the `retired` group while in Texas.**
+- **Course of fire (Commission Rule § 218.9(c)(1), as printed on the form):** B-27 or similar target, combat scoring, at least 50 rounds from point blank to at least 15 yards (20 or more at or beyond 7 yards), at least one timed reload, 70% to pass (175 of 250). A TCOLE firearms instructor or an LTC instructor signs. Fee $35, money order or cashier's check; notarized affidavit. Renew 30 days before expiry.
 - **How:** demonstrate weapons proficiency to a qualified handgun instructor certified under Government Code § 411.190 and give TCOLE a sworn affidavit (926C eligibility; license never revoked or suspended; no disqualifying disability) ((b-1), (b-2)). A Texas state or local agency may also certify its own retirees ((b), (c)), and a state agency may certify other retirees ((h)).
 - **How long:** one year from issue ((d)). This matches LEOSA's 12-month qualification window.
 - **ID:** a certificate holder may ask the former agency for a photo ID showing honorable retirement or separation, and the agency must issue it ((i)). That is a Texas agency duty; it cannot bind a federal or out-of-state agency.
@@ -36,8 +37,8 @@ Since 2021, § 46.02 makes handgun carry an offense only for someone under 21, s
 
 | Group | Who | Carry authority | Texas place law |
 | --- | --- | --- | --- |
-| `txcert` | LEOSA retiree with a current Texas § 1701.357 certificate and qualifying agency photo ID | § 926C and § 46.15(a)(5) | §§ 46.02, 46.03 do not apply. Owner notice (§ 30.05) and federal rules do |
-| `retired` | LEOSA retiree relying on another state's or agency's qualification, with no Texas certificate | § 926C only | § 46.03 applies unless LEOSA overrides it. Government property and parks stay under § 926C(b)(2); the private-place bans are the open question |
+| `txcert` | LEOSA retiree who lives in Texas, with a current Texas § 1701.357 certificate and qualifying agency photo ID | § 926C and § 46.15(a)(5) | §§ 46.02, 46.03 do not apply. Owner notice (§ 30.05) and federal rules do |
+| `retired` | LEOSA retiree relying on another state's or agency's qualification, with no Texas certificate. Includes every visiting retiree (TCOLE issues only to Texas residents) | § 926C only | § 46.03 applies unless LEOSA overrides it. Government property and parks stay under § 926C(b)(2); the private-place bans are the open question |
 | `txltc` | Texas license holder (including a § 411.199 retiree license) carrying under the license, not LEOSA | Government Code ch. 411, subch. H | § 46.03 applies in full, with the license-holder exceptions. Signs under §§ 30.06, 30.07 |
 
 A retiree who holds both a certificate and a license can choose. The app should say which authority each answer assumes.
