@@ -2,7 +2,7 @@
 
 Copied from LEOSA-Places/templates/STATE_CHECKLIST.md. Follow LEOSA-Places/STATE_WORKFLOW.md. Tick each item when it is done and its sources are in docs/sources.md.
 
-Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4 and 6 drafted; map data and rules built into the app on branch add-texas)
+Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4, 6 and 7 drafted; map data, rules and all four guide tabs built into the app on branch add-texas)
 
 ## Research (STATE_WORKFLOW.md layers)
 
@@ -12,8 +12,8 @@ Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4 and 6 drafted; map d
 - [ ] 04-profiles — answers for profiles A–E (state retiree, out-of-state retiree, federal retiree, visitor, military police/DoD) — draft Nov 8: docs/tx-profiles.md. Residence decides the certificate (A, B, C, likely E yes; D no). New Nov 8: S.B. 706 (2025) recognizes every state's license (§ 411.173(b)); § 411.205 duty to show a license at a stop. Open: questions 9–11 in tx-profiles.md
 - [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§§ 46.03, 30.05, 30.06, 30.07 read in full; Class C correction under § 30.05(d-3)); state parks (31 TAC § 59.134(d)) and local preemption (LG §§ 229.001, 236.002) read Nov 7. Corps land (36 C.F.R. § 327.13: Restricted), Capitol (no written ban found) and tribal land (note only) done Nov 7. Still to do: Corps litigation check, tribal codes, map layers
 - [ ] 06-hardware — ammunition, magazines, firearm type, vehicles and transport, possession licensing — draft Nov 8: docs/tx-hardware.md (Penal Code ch. 46 through § 46.14, §§ 42.01, 42.12, Labor Code §§ 52.061–.062, S.B. 1596 read Nov 8). No magazine limit, hollow-point ban, registration or roster; armor-piercing ammunition is a felony with no retiree exemption; short-barrel firearms left § 46.05 on Sept. 1, 2025. Still to do: search the other codes (Education § 37.125, Gov't § 411.2032, Parks and Wildlife) for ammunition, magazine and stun-gun rules
-- [ ] 07-guidance — started Nov 7: DPS special-conditions, 89th Legislation and laws pages; AG Ops. GA-0564 and KP-0332 (persuasive) in docs/sources.md. AG directives, state police FAQs, DA policies, case list; each dated and tagged binding / persuasive / informal
-- [ ] 07f-force — draft Nov 7: docs/tx-force-first-hour.md (ch. 9, §§ 2.03, 22.01–22.05, CPRC § 83.001 verified; procedure, jury charge, who investigates and cases still open). Justification statute, retreat rule, property and arrest rules, official jury charge, silence and counsel, charging and bail, who investigates, real cases (STATE_WORKFLOW.md Layer 7F)
+- [ ] 07-guidance — draft Nov 8: docs/tx-guidance-cases.md. Procedure read (CCP arts. 14.01, 14.03, 14.06, 15.17, 17.03, 17.15, 38.22; Tex. Const. art. I, §§ 10, 11). No Texas DA, DPS or TCOLE LEOSA guidance and no Texas appellate LEOSA opinion found. Cases read: Cuevas (2026), Gamino, Braughton, Guyger; two grand-jury reports (news). Still to do: pattern jury charge (paid), § 1.07, Fifth Circuit on LEOSA § 1983
+- [x] 07f-force — docs/tx-force-first-hour.md; procedure, who investigates, training and cases filled Nov 8 from docs/tx-guidance-cases.md. Pattern jury charge not read (State Bar sells it)
 - [ ] 08-maps — started Nov 7: docs/tx-map-layers.md; state and federal layers pulled by the app's tools/tx_fetch_data.py (branch add-texas): TEA 8,932, TABC 51% 7,057 (6,122 geocoded), racetracks 4, TPWD parks 116, PAD-US Corps 103 and federal 194. OSM extract read (58,745 places). Built Nov 8 by `tools/tx_build_data.py`: about 23,700 places in 23 categories; added Census county and city outlines and the six VA national cemeteries (VA list read Nov 8). Still to do: Corps review (34 Fort Worth parks held out), place the 931 unmatched TABC addresses, civil commitment facility. Layer inventory (source URL, format, license, update cycle, pulled date) + data pulled
 - [ ] 09-scenarios — scenario records in the NJ format, three statuses only
 - [ ] 10-sources — docs/sources.md started Nov 7 (ongoing)
@@ -21,7 +21,7 @@ Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4 and 6 drafted; map d
 ## Build (in the one LEOSA Places app)
 
 - [x] Legal text added to the app's rules file (`src/rules_tx.js`), with LAW_AS_OF and LAW_STATUS for this state (Nov 8)
-- [ ] Guide tabs filled: VIEW, NOW, DRILLS (10+), CASES (5+) and CASES_NOTE; every tab checked on a device — NOW and DRILLS (12) done Nov 8; VIEW and CASES wait on Layer 7
+- [ ] Guide tabs filled: VIEW, NOW, DRILLS (10+), CASES (5+) and CASES_NOTE; every tab checked on a device — all four built Nov 8 (12 drills, 7 cases) and checked in the browser at phone width; device check pending
 - [x] Entry in `src/states.js` with `region: "South Central"` (STATE_WORKFLOW.md "Regions") and `neighbors`; app code still state-neutral (no state names or cite lists in app.js or index.html)
 - [x] Map layers added to the fetch and build tools; manifest records source and date (Nov 8)
 - [x] Tests pass: no place marked clear; government property and federal courts stay Restricted for retirees (Nov 8: 616 rules checks, 108 real-place checks)
@@ -53,3 +53,4 @@ Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4 and 6 drafted; map d
 - Nov 7, 2026: Does § 46.15(a)(5)'s photo-ID requirement accept an ID from a federal agency that does not say "retired", if it otherwise meets § 926C(d)?
 - Nov 8, 2026: Does a retiree without the certificate who carries openly (lawful under § 46.02 for anyone 21+, but not LEOSA carry) lose the LEOSA argument behind the C status at private § 46.03 places? (tx-definitions.md question 8)
 - Nov 8, 2026: Is a visitor with a recognized home-state license (§ 411.173(b)) a "license holder" under Texas law? Does TCOLE certify retired military police, and is a service branch a "law enforcement agency" for § 46.15(a)(5)? What does TLETS show? (tx-profiles.md questions 9–11)
+- Nov 8, 2026: Does a jury weigh a retiree's training for or against reasonableness (Guyger)? After Cuevas, would a prosecutor call carrying in a § 46.03 place without the certificate "criminal activity"? (tx-guidance-cases.md questions 5–6)
