@@ -1,0 +1,40 @@
+# TX — Layer 4: profiles A–E
+
+As of Nov 8, 2026. Built from `tx-definitions.md` (Layers 2–3), `tx-leosa-sensitive-places-crosswalk.md` (Layer 5) and `tx-hardware.md` (Layer 6). New sources read Nov 8: Government Code §§ 411.171, 411.173, 411.199, 411.205; S.B. 706 (89th Leg., 2025); DPS Reciprocity FAQs. Every cite is in `sources.md`. Draft: not reviewed by an attorney.
+
+The answer: in Texas the line runs through **where the retiree lives**, not where they served. Any LEOSA retiree who lives in Texas (A, B, C, and likely E) can get the Texas certificate (Occupations Code § 1701.357), which lifts Texas's carry and places laws (Penal Code § 46.15(a)(5)). A visitor (D) cannot, because TCOLE issues it only to Texas residents, so a visitor relies on LEOSA alone at § 46.03 places. Two things soften the gap: since 2021 anyone 21 or older who is not barred may carry a handgun in Texas without a license (§ 46.02), and since Sept. 1, 2025 Texas recognizes every other state's carry license (§ 411.173(b), S.B. 706). Hardware is the same for everyone: Texas has no magazine or hollow-point limits.
+
+Unlike New York, losing LEOSA status in Texas does not end the right to carry. It ends the place exemptions.
+
+| Row | A. Texas retiree living in Texas | B. Out-of-state retiree living in Texas | C. Federal retiree living in Texas | D. Visitor, LEOSA-qualified | E. Military police / DoD |
+| --- | --- | --- | --- | --- | --- |
+| State permit to carry under LEOSA | Not required | Not required | Not required | Not required | Not required |
+| Texas law without LEOSA | 21+ and not barred may carry a handgun with no license (§ 46.02(a)) | Same | Same | Same | Same |
+| Texas certificate (§ 1701.357) | Available: from the former agency ((b), (c)) or TCOLE ($35, category 5121). Yearly | Available from TCOLE if living in Texas ($35, category 5117; former agency's retired ID and form C-1) | Same as B | **Not available.** TCOLE requires a current Texas address (form IUF 03.002) | Likely available as B, if the service ID meets § 926C(d) (open question 10) |
+| App group with certificate and ID | `txcert` | `txcert` | `txcert` | `retired` only | `txcert` if accepted, else `retired` |
+| Retired photo ID | Former Texas agency must issue one to a certificate holder on request (§ 1701.357(i); Gov't Code §§ 614.124, 614.1241) | From the former agency under its own policy; Texas cannot require it | From the federal agency under its own policy | Same as B or C | From the service under its own policy. Whether a military ID is from a "law enforcement agency" (§ 46.15(a)(5)) is open |
+| Texas license to carry (LTC) | Fee waived, no classroom; no range with a current certificate (§ 411.199(a)–(e-1)) | Ordinary resident license; **no § 411.199 waiver** (it covers Texas-licensed officers and federal retirees only) | Fee waived, no training; good-standing letter and retirement credentials (§ 411.199(g); DPS) | Home-state license is recognized (§ 411.173(b)); or a Texas non-resident license (§ 411.173(a)) | By residence. Whether a military retiree is a "retired officer of the United States" under § 411.199(g) is open |
+| Penal Code § 46.03 places, carrying under LEOSA | Lifted with certificate and ID (§ 46.15(a)(5)); the crosswalk's `txcert` column | Same | Same | Government property R; private places C (check your status); decision of Nov 7 | As B, or as D without the certificate |
+| Schools | `txcert`: C (§ 46.15 lifts § 46.03(a)(1); federal § 922(q) still applies). Without certificate: R | Same | Same | R | Same as B or D |
+| Owner notice (§ 30.05 sign or oral) | R for everyone. Those who also hold a license are bound by §§ 30.06 and 30.07 signs too | Same | Same | R | Same |
+| Corps of Engineers land; airport secured areas; federal buildings | R | R | R | R | R |
+| Open carry | LEOSA is concealed only. Texas law allows holstered open carry at 21+, but that is not LEOSA carry; the app says carry concealed (tx-definitions question 8) | Same | Same | Same | Same |
+| Hollow points and magazines | No Texas limit | Same | Same | Same | Same |
+| Armor-piercing handgun ammunition | Felony, no retiree exemption (§ 46.05(a)(2)) | Same | Same | Same | Same |
+| Batons, knives over 5.5 inches in § 46.03 places | Lifted with certificate | Same | Same | **Barred**; LEOSA covers firearms only | As B or D |
+| Gun left in the car | No storage rule; child-access offense (§ 46.13) | Same | Same | Same | Same |
+| If qualification lapses (no qualification in 12 months; for `txcert`, an expired certificate) | Still may carry under § 46.02 (or a license), but every § 46.03 place applies in full. With an LTC, the license-holder exceptions apply (for example concealed carry at colleges) | Same | Same | Same, under § 46.02 or a recognized home-state license | Same |
+| Duty to show at a stop | No statute makes a non-license carrier volunteer it. **A license holder who is carrying must show the driver's license and the handgun license when an officer asks for ID** (§ 411.205), whatever authority they carry under | Same | Same | Same if they hold a Texas license; likely for a recognized home-state license (question 9) | Same |
+| What ends a stop | § 926C(d) ID plus qualification within 12 months. For `txcert`: the TCOLE certificate and the agency photo ID (§ 46.15(a)(5)). A Texas LTC if held | Same | Same | § 926C(d) ID plus the home state's (or agency's) qualification card; home-state license if held | Same; ID must meet § 926C(d) |
+
+## What the app should say (for `rules_tx.js`)
+
+- Profile picker: "Do you live in Texas?" decides whether the certificate path is shown. A visitor sees: "Texas gives its certificate only to retirees who live in Texas. In Texas you carry under LEOSA, and Texas's places law may still apply to you; see each place's status."
+- License card: "If you hold a Texas license to carry, Texas law requires you to show it with your driver's license when an officer asks for ID while you are carrying (Gov't Code § 411.205). If you hold another state's license, show it too."
+- Lapse card: "If your LEOSA qualification lapses you may still carry a handgun in Texas if you are 21 or older and not barred (Penal Code § 46.02), but every place in § 46.03 applies to you."
+
+## Open questions (raised Nov 8, 2026)
+
+9. Is a visitor carrying under a recognized home-state license (§ 411.173(b)) "licensed to carry a handgun under Subchapter H" for Penal Code purposes (the § 46.03 definition of "license holder"; §§ 30.06, 30.07; the college exception in § 46.03(a)(1)(B))? § 411.173 sits in Subchapter H, which suggests yes. DPS's reciprocity FAQ says only that visitors must follow Texas law. No AG opinion found yet.
+10. Profile E: does TCOLE issue the certificate to a retired military police officer living in Texas, and is a service branch a "federal ... law enforcement agency" for the § 46.15(a)(5) photo ID? Is a military retiree a "retired officer of the United States" under § 411.199(g)?
+11. What does a Texas officer see on a records check: is an LTC (Texas or recognized) or a TCOLE certificate visible in TLETS? Lead: DPS law enforcement personnel page.
