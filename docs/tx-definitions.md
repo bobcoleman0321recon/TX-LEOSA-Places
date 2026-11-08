@@ -49,7 +49,7 @@ A retiree who holds both a certificate and a license can choose. The app should 
 7. Does LEOSA displace any tribal firearm law? The text of § 926C(a) names only state and local law; this project reads tribal law as untouched.
 5. Can a state agency exclude a LEOSA-only carrier (no Texas license) from its property by § 30.05 notice? § 411.209 protects license holders only, and cities and counties are preempted outright (Local Gov't Code §§ 229.001, 236.002).
 
-1. For the `retired` group, which § 46.03 places does § 926C override?
+1. For the `retired` group, which § 46.03 places does § 926C override? **Decided Nov 7, 2026 for the app:** private-place bans are C (check your status), government-property bans and federal rules are R; see the crosswalk. The legal question stays open for counsel.
 2. Does a 30.06 or 30.07 sign count as § 30.05 notice for someone who holds no Texas license? § 30.05(c) gives non-license carriers their own firearms sign, and a general sign "indicating that entry is forbidden" is notice under (b)(2)(C); whether a sign addressed to license holders reaches others is not settled by the text. Either way the penalty is Class C under (d-3) unless the carrier is told in person and stays.
 3. Does a federal agency photo ID that does not say "retired" satisfy § 46.15(a)(5)?
 4. Is "honorably retired peace officer" in § 46.15(a)(5) read with the § 411.199(c) or § 614.121(2) definition (Texas service; eligible to retire; not in lieu of discipline)? It matters little in practice: the same clause also covers any "other qualified retired law enforcement officer" under § 926C.

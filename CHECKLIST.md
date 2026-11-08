@@ -44,7 +44,7 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F star
 
 ## Open questions
 
-- Nov 7, 2026: For a LEOSA retiree without the Texas § 1701.357 certificate, which § 46.03 places does § 926C override? Government property and parks stay under (b)(2); the private-place bans (bars, racetracks, amusement parks, private hospitals) are state bans, not owner rules.
+- Nov 7, 2026 (**decided for the app Nov 7: private-place bans C, government property and federal rules R; still a counsel question**): For a LEOSA retiree without the Texas § 1701.357 certificate, which § 46.03 places does § 926C override? Government property and parks stay under (b)(2); the private-place bans (bars, racetracks, amusement parks, private hospitals) are state bans, not owner rules.
 - Nov 7, 2026: Is a 30.06 or 30.07 sign "notice that entry with a handgun was forbidden" under § 30.05 for a carrier who holds no Texas license? (Penalty is Class C either way under § 30.05(d-3) unless told in person and the carrier stays.)
 - Nov 7, 2026: Layer 7F counsel questions 1–4 in docs/tx-force-first-hour.md (retiree arrest authority; whether carrying in a § 46.03 place is "criminal activity" defeating no-retreat; CPRC § 83.001 and bystanders; § 9.31(b)(5)).
 - Nov 7, 2026: A visiting retiree cannot get the TCOLE certificate (Texas residents only), so the `retired` group's open question 1 decides most visitors' answers. Confirm with TCOLE that non-residents are refused, and whether a Texas agency under § 1701.357(b) or (h) may certify a non-resident.
