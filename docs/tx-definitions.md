@@ -47,6 +47,7 @@ A retiree who holds both a certificate and a license can choose. The app should 
 
 6. Does § 46.03(a)(14) (open meetings of a governmental body, with notice) reach legislative committee hearings at the Capitol?
 7. Does LEOSA displace any tribal firearm law? The text of § 926C(a) names only state and local law; this project reads tribal law as untouched.
+8. A retiree 21 or older may carry a holstered handgun openly under Texas law (§ 46.02(a), (a-5)), but that is not LEOSA carry, which is concealed only. Does a retiree without the certificate who carries openly lose the LEOSA argument behind the app's C status at private § 46.03 places? The app tells retirees to carry concealed (`tx-hardware.md`).
 5. Can a state agency exclude a LEOSA-only carrier (no Texas license) from its property by § 30.05 notice? § 411.209 protects license holders only, and cities and counties are preempted outright (Local Gov't Code §§ 229.001, 236.002).
 
 1. For the `retired` group, which § 46.03 places does § 926C override? **Decided Nov 7, 2026 for the app:** private-place bans are C (check your status), government-property bans and federal rules are R; see the crosswalk. The legal question stays open for counsel.
