@@ -1,6 +1,6 @@
 # TX — Layer 8: map layer inventory
 
-As of Nov 7, 2026. Sources found and probed Nov 7, 2026. Pulled by the app's `tools/tx_fetch_data.py` (branch `add-texas` in `../../NJ-LEOSA-Places`) into `data/tx/raw/`; `manifest.json` there records each source, date and count. The build script (`tools/tx_build_data.py`) comes after the Texas statuses in `tx-leosa-sensitive-places-crosswalk.md` are settled.
+As of Nov 7, 2026. Sources found and probed Nov 7, 2026. Pulled by the app's `tools/tx_fetch_data.py` (branch `add-texas` in `../../NJ-LEOSA-Places`) into `data/tx/raw/`; `manifest.json` there records each source, date and count. Built Nov 8, 2026 by `tools/tx_build_data.py` into `data/tx/places.json` (see "Build, Nov 8" below).
 
 Pulled Nov 7, 2026 (`tools/tx_fetch_data.py --no-osm`): TEA campuses 8,932 (Elementary 4,774; High School 1,817; Middle/Jr. High 1,665; K-12 676); TPWD state park boundaries 116; racetracks 4 (three Census-geocoded, Gillespie County Fair by OSM name search); TABC active red-sign licenses 7,057, of which 6,122 Census-geocoded (935 to place in the build; MB 3,992, BG 2,310, other 755); PAD-US Corps records 103 (owner and manager USACE 61, owner unknown and manager USACE 24 recreation areas, Corps-owned and state-managed 12, other 6); PAD-US federal 194. OpenStreetMap extract (texas-261107) read Nov 7: 58,745 places, including schools 10,567, colleges 338 and universities 292, courthouses 423, prisons 270, hospitals 762, stadiums 805, theme parks 92, airports and airfields 1,644, post offices 1,467, military areas 663 (parks 25,201 and playgrounds 11,063 are kept for reference only; Texas does not restrict them).
 
@@ -52,10 +52,18 @@ Geofabrik extract `https://download.geofabrik.de/north-america/us/texas-latest-f
 
 Polling places during voting (§ 46.03(a)(2)); open meetings of a governmental body after notice (§ 46.03(a)(14)); the execution site on execution days (§ 46.03(a)(6)); sporting events when no event is on; private property posted under §§ 30.05, 30.06 or 30.07; areas a college excludes by notice; tribal land rules; the Capitol (screening decides entry).
 
+## Build, Nov 8, 2026
+
+`tools/tx_build_data.py` output: TEA campuses 8,932 (outlines from OSM where matched); possible schools from OSM 3,097; public or unidentified colleges 509 and private colleges 77 (split by name; unmatched names count as public, the cautious reading); TABC red-sign businesses 6,124 placed (931 unplaced: the Census batch retry without suite numbers placed only 4, so the rest are listed in the app's "Not on this map"); courts 408; jails and prisons 251; hospitals 747; stadiums 794; commercial airports 28 (hand list of commercial-service names); amusement parks 3 (Six Flags Over Texas, Six Flags Fiesta Texas, SeaWorld San Antonio, read against the § 46.03(c)(1) definition on Nov 8; acreage, days and guards not confirmed); racetracks 4; VA national cemeteries 6; Corps land 66; other federal land 29, national park units 13, refuges 25, federal facilities 29, federal courts 15, military 625, post offices 1,171. Records outside every Texas county (36: Mexico, New Mexico, Oklahoma, Arkansas) are dropped.
+
+Added to `tools/tx_fetch_data.py` on Nov 8: Census TIGERweb counties (254) and incorporated places (1,230) for Browse; the VA's Texas cemetery list (six national cemeteries; state veterans cemeteries are not VA property), outlined from OSM by name; and a second geocoding pass for TABC addresses.
+
+The `enforcingAgency` and `jurisdiction` fields named above are not yet in the records; they belong to the trips design note and no app feature reads them.
+
 ## Open items for the build
 
-1. Review PAD-US Corps records. The 24 owner-unknown, Corps-managed records are the lake recreation areas (Aquilla, Bardwell, Belton, Benbrook, Canyon, Cooper, Georgetown, Granger, Grapevine, Hords Creek, Joe Pool, Lake O' the Pines, Lavon, Lewisville, Navarro Mills, O.C. Fisher, Proctor, Ray Roberts, Sam Rayburn, Somerville, Stillhouse Hollow, Waco, Whitney, Wright Patman). Most of the 61 owner-and-manager USACE records are named Fort Worth parks (Trinity River flood-control land); confirm with the Fort Worth District before mapping them Restricted.
-1a. Place the 935 TABC addresses the Census batch did not match (single-line retry, then OSM name search).
-2. Settle the statuses in the crosswalk for the `retired` group (open question 1) before the build assigns R or C.
-3. Hand-review amusement parks against § 46.03's definition.
-4. Confirm the civil commitment facility and the VA cemetery list.
+1. Review PAD-US Corps records. **Nov 8:** the 34 Fort Worth records from the Trust for Public Land ParkServe source (local parks, manager "Fort Worth") are held out of the map until the Fort Worth District confirms them; the other 66 Corps units are mapped Restricted. The 24 owner-unknown, Corps-managed records are the lake recreation areas (Aquilla, Bardwell, Belton, Benbrook, Canyon, Cooper, Georgetown, Granger, Grapevine, Hords Creek, Joe Pool, Lake O' the Pines, Lavon, Lewisville, Navarro Mills, O.C. Fisher, Proctor, Ray Roberts, Sam Rayburn, Somerville, Stillhouse Hollow, Waco, Whitney, Wright Patman). Most of the 61 owner-and-manager USACE records are named Fort Worth parks (Trinity River flood-control land); confirm with the Fort Worth District before mapping them Restricted.
+1a. Place the TABC addresses the Census batch did not match. **Nov 8:** a retry without suite numbers placed 4 of 935; 931 remain, shown as a count in "Not on this map". Next: a structured search one at a time, or TABC's own coordinates if it publishes them.
+2. Settled Nov 7 (decision on open question 1); the build uses the crosswalk statuses.
+3. Hand-review amusement parks against § 46.03's definition. **Nov 8:** definition read (§ 46.03(c)(1)); three parks mapped; confirm acreage, days and guards, and check Hurricane Harbor, Schlitterbahn and Kemah against the county-population test.
+4. Confirm the civil commitment facility. VA cemetery list confirmed Nov 8 (cem.va.gov).
