@@ -12,7 +12,7 @@ Started: Nov 7, 2026 · Last updated: Nov 7, 2026 (Layers 2, 3, 5, 7 and 7F star
 - [ ] 04-profiles — answers for profiles A–E (state retiree, out-of-state retiree, federal retiree, visitor, military police/DoD)
 - [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§§ 46.03, 30.05, 30.06, 30.07 read in full; Class C correction under § 30.05(d-3)). Still to do: state parks, local preemption, tribal gaming, map layers
 - [ ] 06-hardware — ammunition, magazines, firearm type, vehicles and transport, possession licensing
-- [ ] 07-guidance — started Nov 7: DPS special-conditions page in docs/sources.md. AG directives, state police FAQs, DA policies, case list; each dated and tagged binding / persuasive / informal
+- [ ] 07-guidance — started Nov 7: DPS special-conditions, 89th Legislation and laws pages; AG Ops. GA-0564 and KP-0332 (persuasive) in docs/sources.md. AG directives, state police FAQs, DA policies, case list; each dated and tagged binding / persuasive / informal
 - [ ] 07f-force — draft Nov 7: docs/tx-force-first-hour.md (ch. 9, §§ 2.03, 22.01–22.05, CPRC § 83.001 verified; procedure, jury charge, who investigates and cases still open). Justification statute, retreat rule, property and arrest rules, official jury charge, silence and counsel, charging and bail, who investigates, real cases (STATE_WORKFLOW.md Layer 7F)
 - [ ] 08-maps — layer inventory (source URL, format, license, update cycle, pulled date) + data pulled
 - [ ] 09-scenarios — scenario records in the NJ format, three statuses only
