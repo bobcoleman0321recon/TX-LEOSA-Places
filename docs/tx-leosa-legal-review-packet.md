@@ -26,7 +26,7 @@ For the reviewing attorney. Prepared Nov 8, 2026. Every Texas status and sentenc
   - **OLC opinion (Aug 12, 2026):** no federal enforcement against law-abiding self-defense carry in public post offices.
   - ***FPC v. Bondi*** (N.D. Tex.): a permanent injunction for members of FPC and SAF; the appeal was dismissed July 23, 2026.
 
-  Post offices stay Restricted under the existing Layer 1 decision, with both developments shown in the reason. See question P1.
+  Bob decided Nov 8 that post offices open to the public are "check your status" in every state, with the limits stated. See question P1.
 - **Corps layer:** PAD-US labels 35 Fort Worth records as Corps land. All 35 are in the City of Fort Worth's 2025 park inventory, so they stay off the Corps layer.
 - **Not re-verified, so check by hand:**
   - 31 TAC § 59.134(d), the state park rule: read on LII. The Secretary of State's code viewer has moved to a portal that does not open by link.
@@ -62,7 +62,7 @@ For the reviewing attorney. Prepared Nov 8, 2026. Every Texas status and sentenc
 
 | # | Question | App's current position |
 | --- | --- | --- |
-| P1 | Post offices: 39 C.F.R. § 232.1(l) and § 930(a) are unchanged. But the Executive Branch has said it will not enforce them against law-abiding self-defense carry in public post offices (OLC, Aug 12, 2026), and *FPC v. Bondi* enjoins enforcement against FPC and SAF members, surrounding post office property included. Should the status be "check your status" instead of Restricted? Does the OLC reasoning (§ 930(d)(3), "lawful purposes") help a LEOSA carrier at other federal facilities? It says it does not reach them | Restricted, with both developments in the reason (Layer 1 decision). Pending Bob's decision for every state |
+| P1 | Post offices: 39 C.F.R. § 232.1(l) and § 930(a) are unchanged. But the Executive Branch has said it will not enforce them against law-abiding self-defense carry in public post offices (OLC, Aug 12, 2026), and *FPC v. Bondi* enjoins enforcement against FPC and SAF members, surrounding post office property included. Should the status be "check your status" instead of Restricted? Does the OLC reasoning (§ 930(d)(3), "lawful purposes") help a LEOSA carrier at other federal facilities? It says it does not reach them | Decided by Bob Nov 8, 2026: check your status in every state, with the opinion's limits stated (other federal buildings, bases, closed areas; parking not addressed; *Dorosan*, 5th Cir. 2009). Counsel: confirm a qualified LEOSA carrier is "lawfully carrying" under § 930(d)(3) as OLC reads it |
 
 ## Now what?, Texas's view and Real cases (priority review)
 
