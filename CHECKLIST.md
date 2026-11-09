@@ -37,8 +37,8 @@ Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4, 6 and 7 drafted; ma
 ## Release (STATE_WORKFLOW.md, "Releasing a state in the one app")
 
 - [ ] 12-release — version and build bumped; tests pass; run on a physical iPhone and iPad
-- [ ] Listing updated: state-neutral subtitle, states named in description and What's New, state name in keywords, this state's screenshots
-- [ ] Store assets: three captioned screenshots per device; optional app preview; header and search images updated if they name the states
+- [x] Listing updated: state-neutral subtitle, states named in description and What's New, state name in keywords, this state's screenshots — drafted Nov 8 in NJ-LEOSA-Places/docs/app-store/listing.md ("Version 1.3 listing"); paste into App Store Connect after 1.2 is released
+- [x] Store assets: three captioned screenshots per device; optional app preview; header and search images updated if they name the states — Nov 8: region picker, Texas map (UT Austin) and TX's view for iPhone and iPad; creative/1.3 header and search images; no Texas app preview yet
 - [ ] Archived on the Mac and uploaded (Xcode Cloud is off), version added in App Store Connect, submitted
 - [ ] 13-announce — training post drafted; every cite Verified in docs/sources.md; as-of date and not-legal-advice line included
 
