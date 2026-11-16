@@ -2,13 +2,13 @@
 
 Copied from LEOSA-Places/templates/STATE_CHECKLIST.md. Follow LEOSA-Places/STATE_WORKFLOW.md. Tick each item when it is done and its sources are in docs/sources.md.
 
-Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4, 6 and 7 drafted; map data, rules and all four guide tabs built into the app on branch add-texas)
+Started: Nov 7, 2026 · Last updated: Nov 15, 2026 (release prep: litigation rechecked, review items closed, app bumped to 1.3 build 6 on add-texas)
 
 ## Research (STATE_WORKFLOW.md layers)
 
 - [x] 01-federal — reference Layer 1 of STATE_WORKFLOW.md (no state copy)
 - [ ] 02-definitions — started Nov 7: docs/tx-definitions.md (§ 46.15(a)(5), § 1701.357, § 411.199 read). Gov't Code ch. 614 subch. H read (retired ID cards). Still to do: CCP art. 2A.001, decision tree
-- [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. DPS retiree-license page and TCOLE certificate form (IUF 03.002) logged; TCOLE issues only to Texas residents. 37 TAC § 218.9 read (LII copy); preemption read. Still to do: 37 TAC ch. 6
+- [ ] 03-implementation — started Nov 7: certificate and retiree license in docs/tx-definitions.md. DPS retiree-license page and TCOLE certificate form (IUF 03.002) logged; TCOLE issues only to Texas residents. 37 TAC § 218.9 read (LII copy); preemption read. 37 TAC ch. 6 read Nov 15 (LII): no retiree rule; § 411.199 stands on the statute
 - [ ] 04-profiles — answers for profiles A–E (state retiree, out-of-state retiree, federal retiree, visitor, military police/DoD) — draft Nov 8: docs/tx-profiles.md. Residence decides the certificate (A, B, C, likely E yes; D no). New Nov 8: S.B. 706 (2025) recognizes every state's license (§ 411.173(b)); § 411.205 duty to show a license at a stop. Open: questions 9–11 in tx-profiles.md
 - [ ] 05-places — draft Nov 7: docs/tx-leosa-sensitive-places-crosswalk.md (§§ 46.03, 30.05, 30.06, 30.07 read in full; Class C correction under § 30.05(d-3)); state parks (31 TAC § 59.134(d)) and local preemption (LG §§ 229.001, 236.002) read Nov 7. Corps land (36 C.F.R. § 327.13: Restricted), Capitol (no written ban found) and tribal land (note only) done Nov 7. Corps litigation checked Nov 8 (no Fifth Circuit, Texas or post-Bruen ruling; rule stands). Post offices changed to C for every state on Nov 8 (Bob's decision: open to the public, law-abiding, LEOSA fits; OLC opinion Aug. 12, 2026). Still to do: tribal codes
 - [ ] 06-hardware — ammunition, magazines, firearm type, vehicles and transport, possession licensing — draft Nov 8: docs/tx-hardware.md (Penal Code ch. 46 through § 46.14, §§ 42.01, 42.12, Labor Code §§ 52.061–.062, S.B. 1596 read Nov 8). No magazine limit, hollow-point ban, registration or roster; armor-piercing ammunition is a felony with no retiree exemption; short-barrel firearms left § 46.05 on Sept. 1, 2025. Still to do: search the other codes (Education § 37.125, Gov't § 411.2032, Parks and Wildlife) for ammunition, magazine and stun-gun rules
@@ -29,14 +29,14 @@ Started: Nov 7, 2026 · Last updated: Nov 8, 2026 (Layers 4, 6 and 7 drafted; ma
 
 ## Review before submission
 
-- [ ] 11-review — every statute and cite checked against the primary source — done Nov 8 (every rules_tx.js authority traced to sources.md or Layer 1; § 46.03 re-read; TABC sign statutes, 49 C.F.R. § 1540.111 and the Corps rule verified). Left: 31 TAC § 59.134(d) at the Secretary of State portal and 37 TAC ch. 6, by hand
-- [x] Refresh dates set for litigation-driven items — recheck at each release: post office OLC opinion and FPC v. Bondi, Corps § 327.13 cases, Cuevas line of cases, Texas LEOSA opinions (none yet)
+- [x] 11-review — every statute and cite checked against the primary source — done Nov 8 (every rules_tx.js authority traced to sources.md or Layer 1; § 46.03 re-read; TABC sign statutes, 49 C.F.R. § 1540.111 and the Corps rule verified). Nov 15: 31 TAC § 59.134(d) re-read on LII (unchanged since May 2022) and 37 TAC ch. 6 read; only an optional look at the Secretary of State portal remains
+- [x] Refresh dates set for litigation-driven items — recheck at each release: post office OLC opinion and FPC v. Bondi, Corps § 327.13 cases, Cuevas line of cases, Texas LEOSA opinions (none yet). Rechecked Nov 15 for 1.3: no change (OLC opinion not withdrawn; FPC appeal dismissed July 23; § 327.13 unchanged, no new ruling; Cuevas unchanged; no Texas LEOSA opinion)
 - [x] Notices from STATE_WORKFLOW.md in place, naming this state's sources (not legal advice, how updates work, your responsibility, not reviewed by an attorney) — app gate and Sources tab; Texas AUTH shows on Sources
 - [x] Legal review packet written (docs/tx-leosa-legal-review-packet.md) — Nov 8, 26 questions plus P1 (post offices, all states)
 
 ## Release (STATE_WORKFLOW.md, "Releasing a state in the one app")
 
-- [ ] 12-release — version and build bumped; tests pass; run on a physical iPhone and iPad
+- [ ] 12-release — version and build bumped; tests pass; run on a physical iPhone and iPad — Nov 15: 1.3 (build 6) on add-texas, tests pass, Release build compiles for the simulator. Physical iPhone and iPad run: Bob
 - [x] Listing updated: state-neutral subtitle, states named in description and What's New, state name in keywords, this state's screenshots — drafted Nov 8 in NJ-LEOSA-Places/docs/app-store/listing.md ("Version 1.3 listing"); paste into App Store Connect after 1.2 is released
 - [x] Store assets: three captioned screenshots per device; optional app preview; header and search images updated if they name the states — Nov 8: region picker, Texas map (UT Austin) and TX's view for iPhone and iPad; creative/1.3 header and search images; no Texas app preview yet
 - [ ] Archived on the Mac and uploaded (Xcode Cloud is off), version added in App Store Connect, submitted
