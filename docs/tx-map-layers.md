@@ -67,3 +67,13 @@ The `enforcingAgency` and `jurisdiction` fields named above are not yet in the r
 2. Settled Nov 7 (decision on open question 1); the build uses the crosswalk statuses.
 3. Hand-review amusement parks against § 46.03's definition. **Nov 8:** definition read (§ 46.03(c)(1)); three parks mapped; confirm acreage, days and guards, and check Hurricane Harbor, Schlitterbahn and Kemah against the county-population test.
 4. Confirm the civil commitment facility. VA cemetery list confirmed Nov 8 (cem.va.gov).
+
+## Land crossings (Nov 15, 2026)
+
+Checked every Texas–Mexico land crossing against OpenStreetMap's US-side inspection points (`barrier=border_control`, fetched inside Texas by Overpass as `osm_border_control`, 186 points).
+
+- Added: Amistad Dam (OSM "Amistad Dam Port of Entry", Spur 349), Falcon Dam (border control on FM 2098 Spur), Boquillas Crossing (Big Bend), and inspection points at the Gateway (Brownsville) and Hidalgo bridges, where GSA's building sits 500–700 m back.
+- Moved off wrong GSA points: Progreso (was 11 km north), Presidio (2 km east, in town), World Trade Bridge, Laredo (2.4 km southeast).
+- Del Rio was already right (GSA point about 120 m from the US inspection plaza), but as a point it covered only 60 m.
+- Every POE is now an outline: the marker and its inspection points within 700 m, plus 50 m. 30 POEs outlined; the largest is World Trade Bridge, about 830 × 440 m (checked on the street map: the plaza, not the streets around it).
+- Left out on purpose: interior USBP checkpoints (I-10 Sierra Blanca, US 90 Marfa, US 277 Eagle Pass, US 281 Falfurrias and others), the Port of Brownsville (a seaport), La Linda bridge (closed), and Santa Teresa (New Mexico).
