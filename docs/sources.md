@@ -133,3 +133,12 @@ Federal; also logged in `../../STATE_WORKFLOW.md` Layer 1.
 | Code of Criminal Procedure grand jury chapters (20A) | Read Nov 8: arts. 14, 15.17, 17, 38.22 (still at those numbers after H.B. 4504). Grand jury procedure itself not read | statutes.capitol.texas.gov, CR |
 | Texas Rangers / DPS role in officer-involved and self-defense shootings; county DA grand-jury practice | Layer 7F: who investigates | DPS, county DA sites |
 | Penal Code § 1.07 ("reasonable belief"); Fifth Circuit on LEOSA § 1983 enforcement | Layer 7: training as evidence; whether a retiree can sue in Texas federal courts | PE.1; CourtListener |
+
+
+## Added Nov 17, 2026 (Amtrak)
+
+| Source | Used for | Status |
+| --- | --- | --- |
+| [Amtrak Police LEO Traveling Armed FAQ](https://police.amtrak.com/content/dam/projects/dotcom/english/public/documents/apd/apd-vip-faq.pdf) | Only officers on official business travel armed; retired and off-duty excluded | Read Nov 17, 2026. File dated 2017; confirm current |
+| [Amtrak, Firearms in Checked Baggage](https://www.amtrak.com/firearms-in-checked-baggage) | Checked-firearm rules | Read Nov 17, 2026 |
+| [49 U.S.C. § 24301](https://www.law.cornell.edu/uscode/text/49/24301) | Amtrak is not a federal agency | Verified Nov 17, 2026 |
